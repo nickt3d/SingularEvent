@@ -25,7 +25,7 @@ window_size = new vec2(1280, 1152);
 #region zoom
 minzoom = 0;			//the minimum zoom level
 maxzoom = 20;			//the maximum zoom level
-zoom	= 8;			//the starting zoom level
+zoom	= 6;			//the starting zoom level
 canZoom = false;
 vx = window_size.x/zoom;
 vy = window_size.y/zoom;
@@ -36,7 +36,7 @@ cy = 0;			//the camera y position
 cz = 0;
 
 cxoffset = 0;
-cyoffset = -16;
+cyoffset = -32;
 
 z_dist = 50;
 dir = 0;

@@ -22,6 +22,8 @@ takeDamage = function(dmg){
 	}
 }
 
+sight_range = 100;
+
 //TODO:
 //Stay at least a few tiles above the ground
 //Add a hovering effect

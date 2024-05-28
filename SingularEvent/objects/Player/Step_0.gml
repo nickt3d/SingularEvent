@@ -23,7 +23,7 @@ if(global.i_jump_held && grounded){
 	state = states.jump;
 }
 
-sprite_index = sprite_map[? state];
+//sprite_index = sprite_map[? state];
 
 update_position();
 
@@ -42,3 +42,10 @@ if(mouse_check_button_released(mb_left) && attackCooldown != 0){
 }
 
 attackCooldown = approach(attackCooldown, 0, dt);
+
+
+if(aim_dir > 90 && aim_dir < 270){
+	image_xscale = -1;	
+} else {
+	image_xscale = 1;	
+}
