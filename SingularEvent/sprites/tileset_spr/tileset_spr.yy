@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tileset_spr",
-  "bbox_bottom": 7,
+  "bbox_bottom": 23,
   "bbox_left": 8,
-  "bbox_right": 23,
+  "bbox_right": 39,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ca89d2f5-ac1c-42c8-ba35-19dd3d292630",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04704d41-89c9-4271-a2aa-00bb60430b4e",},
   ],
   "gridX": 8,
   "gridY": 8,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"457f7ac1-2034-49cf-aee6-012ffad31278","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"758279a0-407e-4a0d-9a85-d9d411ff0583","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ca89d2f5-ac1c-42c8-ba35-19dd3d292630","path":"sprites/tileset_spr/tileset_spr.yy",},},},"Disabled":false,"id":"d9973f6d-df9e-4405-9b0a-010bc3e66d2b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"04704d41-89c9-4271-a2aa-00bb60430b4e","path":"sprites/tileset_spr/tileset_spr.yy",},},},"Disabled":false,"id":"310d9407-f73a-4898-8ae9-7b695c6661ef","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

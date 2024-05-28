@@ -22,3 +22,6 @@ takeDamage = function(dmg){
 	}
 }
 
+//TODO:
+//Stay at least a few tiles above the ground
+//Add a hovering effect

@@ -17,24 +17,28 @@ aim_dir = point_direction(x, y, mouse_x, mouse_y);
 	}
 #endregion
 
-if(grounded){
-	if(global.i_jump_held && grounded){
-		vspd -= jumpPower;
-		grounded = false;
-		state = states.jump;
-	}
+if(global.i_jump_held && grounded){
+	vspd -= jumpPower;
+	grounded = false;
+	state = states.jump;
 }
 
 sprite_index = sprite_map[? state];
 
-
 update_position();
 
-if(mouse_check_button_pressed(mb_left)){
+if(mouse_check_button(mb_left) && attackCooldown == 0){
 	with(instance_create_layer(x, y-playerHeight, layer, Projectile)){
 		spd = 300;
 		dir = other.aim_dir;
 		hspd = lengthdir_x(spd, dir);
 		vspd = lengthdir_y(spd, dir);
 	}
+	attackCooldown = attackSpd;
 }
+
+if(mouse_check_button_released(mb_left) && attackCooldown != 0){
+	attackCooldown = 0; //releasing the button makes the cooldown reset
+}
+
+attackCooldown = approach(attackCooldown, 0, dt);

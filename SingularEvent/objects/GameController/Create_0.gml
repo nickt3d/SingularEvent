@@ -15,6 +15,8 @@
 	#macro winH window_get_height()
 #endregion
 
+global.gameState = gameState.loading;
+
 #region enums
 	enum states {
 		idle,
@@ -25,5 +27,11 @@
 		recoil,
 		dead,
 		length
+	}
+	enum gameState {
+		loading,
+		menu,
+		paused,
+		playing
 	}
 #endregion

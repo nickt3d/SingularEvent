@@ -19,6 +19,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Zone1","folderPath":"folders/Rooms/Zone1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
@@ -55,6 +56,7 @@
     {"id":{"name":"player_run_spr","path":"sprites/player_run_spr/player_run_spr.yy",},},
     {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
+    {"id":{"name":"spawn_rm","path":"rooms/spawn_rm/spawn_rm.yy",},},
     {"id":{"name":"player_fall_spr","path":"sprites/player_fall_spr/player_fall_spr.yy",},},
     {"id":{"name":"Structs","path":"scripts/Structs/Structs.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -64,6 +66,7 @@
     {"roomId":{"name":"splash_rm","path":"rooms/splash_rm/splash_rm.yy",},},
     {"roomId":{"name":"game_rm","path":"rooms/game_rm/game_rm.yy",},},
     {"roomId":{"name":"mainmenu_rm","path":"rooms/mainmenu_rm/mainmenu_rm.yy",},},
+    {"roomId":{"name":"spawn_rm","path":"rooms/spawn_rm/spawn_rm.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
